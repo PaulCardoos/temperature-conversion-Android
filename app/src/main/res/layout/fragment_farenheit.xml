@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/farenheit_btn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    tools:context=".FarenheitFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <EditText
+            android:id="@+id/conversion_F_input_txt"
+            style="@style/input_num_style"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#837D7D"
+            android:hint="@string/farenheit_string"
+            android:importantForAutofill="no"
+            android:textColor="#D8D2D2"
+            android:textColorHint="#D8D2D2" />
+
+        <Button
+            android:id="@+id/button_farenheit_convert"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#95E149"
+            android:shadowColor="#070707"
+            android:text="@string/send" />
+
+        <TextView
+            android:id="@+id/txtView_farenheit_display"
+            style="@style/txtview_display_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="@string/farenheit_txtview" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

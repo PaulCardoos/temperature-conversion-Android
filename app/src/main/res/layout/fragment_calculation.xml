@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121111"
+    tools:context=".CalculationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <EditText
+            android:id="@+id/temp_C_input_id"
+            style="@style/input_num_style"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#837D7D"
+            android:hint="@string/message"
+            android:textColor="#D8D2D2"
+            android:textColorHint="#D8D2D2" />
+
+        <Button
+            android:id="@+id/convert_C_btn"
+            style="@style/button_style"
+            android:background="@android:drawable/editbox_background_normal"
+            android:backgroundTint="#95E149"
+
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/send" />
+
+        <TextView
+            android:id="@+id/conversion_txt"
+            style="@style/txtview_display_style"
+            android:textColor="#FFFFFF"
+            android:text="@string/conversion_txtview" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
