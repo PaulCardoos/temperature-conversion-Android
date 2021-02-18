@@ -18,7 +18,7 @@
             android:id="@+id/temp_C_input_id"
             style="@style/input_num_style"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:background="#837D7D"
             android:hint="@string/message"
             android:textColor="#D8D2D2"

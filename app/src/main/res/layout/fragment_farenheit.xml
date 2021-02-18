@@ -19,7 +19,7 @@
             android:id="@+id/conversion_F_input_txt"
             style="@style/input_num_style"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:background="#837D7D"
             android:hint="@string/farenheit_string"
             android:importantForAutofill="no"

@@ -41,15 +41,17 @@ limitations under the License.
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="464dp"
+        android:layout_height="0dp"
         android:background="#272626"
         android:baselineAligned="false"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
         <fragment
             android:id="@+id/article_fragment"
             android:name="com.example.android.tempconversion.ArticleFragment"
             android:layout_width="0dp"
+
             android:layout_height="match_parent" />
     </FrameLayout>
 

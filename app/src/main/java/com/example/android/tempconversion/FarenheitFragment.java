@@ -46,6 +46,10 @@ public class FarenheitFragment extends Fragment {
             public void onClick(View view) {
                 double num;
                 String txt = farenheitText.getText().toString();
+                if(txt.isEmpty()){
+                    displayText.setText("");
+                    return;
+                }
                 num  = Double.parseDouble(txt);
                 txt = convertToCelcius(num);
                 displayText.setText(txt);
@@ -59,6 +63,6 @@ public class FarenheitFragment extends Fragment {
         String c;
         celc = (num - 32) * (5.0/9.0);
         c = Double.toString(celc);
-        return c;
+        return String.format("%.02f", celc);
     }
 }

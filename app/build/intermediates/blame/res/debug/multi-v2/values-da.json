@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\17813\\Desktop\\Android Mobile Application 443\\Apps\\Fragment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
+            "outputFile": "C:\\Users\\17813\\Desktop\\Android Mobile Application 443\\Apps\\Temperature-Conversion-Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
                     "source": "C:\\Users\\17813\\.gradle\\caches\\transforms-2\\files-2.1\\222ad3875af524dbeddaea9e092a0d60\\support-compat-27.1.1\\res\\values-da\\values-da.xml",

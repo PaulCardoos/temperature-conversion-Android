@@ -43,6 +43,10 @@ public class CalculationFragment extends Fragment {
            public void onClick(View view) {
                double num;
                String txt = numberText.getText().toString();
+               if(txt.isEmpty()){
+                   displayText.setText("");
+                   return;
+               }
                num = Double.parseDouble(txt);
                txt = convertToFarh(num);
                displayText.setText(txt);
@@ -55,6 +59,6 @@ public class CalculationFragment extends Fragment {
         double farh;
         farh = num * (9.0/5.0) + 32;
         String far = Double.toString(farh);
-        return far;
+        return String.format("%.02f", farh);
     }
 }
